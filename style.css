@@ -1,0 +1,85 @@
+.headsfondo{
+    background: url(./img/header.jpg) ;
+    height: 70vh;
+}
+
+.font-title{
+    font-family: 'Righteous';
+    color: white;
+
+}
+.colore{
+    color: #1566C0;
+}
+
+.bottoneiniziale{
+    background-color: yellow;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+
+}
+
+.primacard{
+    width: 33%;
+    color: white;
+}
+
+.Containeronde{
+    position: relative; padding: 0;
+    }
+
+.containeronde .ondasfondo{
+    border-width: 0; margin: 0; padding: 0;
+    }
+
+.containeronde .ondasu{
+    border-width: 0; margin: 0; padding: 0;
+    position: absolute; top:40vh; left: 0;
+    }
+    
+body{
+    background-color: white;
+}
+
+.bordo{
+    border-bottom:3px solid yellow ;
+}
+
+.primosfondo{
+    background: url(./img/1.png);
+    height:50vh;
+    width: 22%;
+    margin: 15px;
+}
+.secondosfondo{
+    background: url(./img/2.png);
+    height:50vh;
+    width: 22%;
+    margin: 15px;
+}
+.terzosfondo{
+    background: url(./img/3.png);
+    height:50vh;
+    width: 22%;
+    margin: 15px;
+}
+.quartosfondo{
+    background: url(./img/4.png);
+    height:50vh;
+    width: 22%;
+    margin: 15px;
+}
+.bordocard{
+    border: 1px ridge rgb(199, 195, 195);
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px #dedede;
+}
+.bordocardpiccola{
+    border: 1px groove rgb(199, 195, 195);
+    border-radius: 5%;
+    box-shadow: 1px;
+    width: 2.5vw;
+    height: 4vh;
+    box-shadow: 10px 10px 5px #dedede;
+}
