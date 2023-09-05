@@ -1,5 +1,6 @@
 .headsfondo{
-    background: url(./img/header.jpg) ;
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+    url(./img/header.jpg) no-repeat center center / cover ;
     height: 70vh;
 }
 
@@ -47,25 +48,25 @@ body{
 }
 
 .primosfondo{
-    background: url(./img/1.png);
+    background:linear-gradient(135deg, var(--primary), var(--secondary)), url(./img/1.png) no-repeat center center / cover ;
     height:50vh;
     width: 22%;
     margin: 15px;
 }
 .secondosfondo{
-    background: url(./img/2.png);
+    background:linear-gradient(135deg, var(--primary), var(--secondary)), url(./img/2.png)no-repeat center center / cover ;
     height:50vh;
     width: 22%;
     margin: 15px;
 }
 .terzosfondo{
-    background: url(./img/3.png);
+    background:linear-gradient(135deg, var(--primary), var(--secondary)), url(./img/3.png)no-repeat center center / cover ;
     height:50vh;
     width: 22%;
     margin: 15px;
 }
 .quartosfondo{
-    background: url(./img/4.png);
+    background:linear-gradient(135deg, var(--primary), var(--secondary)), url(./img/4.png)no-repeat center center / cover ;
     height:50vh;
     width: 22%;
     margin: 15px;
@@ -82,4 +83,10 @@ body{
     width: 2.5vw;
     height: 4vh;
     box-shadow: 10px 10px 5px #dedede;
+}
+
+:root{
+
+    --primary: hsla(240, 5%, 7%, 0.90);
+    --secondary:hsla(208, 89%, 11%, 0.2);
 }
