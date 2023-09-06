@@ -72,21 +72,52 @@ body{
     margin: 15px;
 }
 .bordocard{
-    border: 1px ridge rgb(199, 195, 195);
+    border: 1px none rgb(199, 195, 195);
     border-radius: 5%;
-    box-shadow: 10px 10px 5px #dedede;
+    box-shadow: 0px 4px 4px #dedede;
+    box-shadow: 1px;
 }
 .bordocardpiccola{
-    border: 1px groove rgb(199, 195, 195);
+    border: 1px none rgb(199, 195, 195);
     border-radius: 5%;
     box-shadow: 1px;
-    width: 2.5vw;
-    height: 4vh;
-    box-shadow: 10px 10px 5px #dedede;
+    width: 3vw;
+    height: 5vh;
+    box-shadow: 0px 4px 4px #dedede;
 }
 
 :root{
 
     --primary: hsla(240, 5%, 7%, 0.90);
     --secondary:hsla(208, 89%, 11%, 0.2);
+}
+
+.bordocard2{
+    border: 1px solid rgb(199, 195, 195);
+    border-radius: 5%;
+    box-shadow: 0px 4px 4px #dedede;
+    
+}
+
+.imgtonda{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:2px solid #1566C0 ;
+}
+
+.bottone2{
+    background-color: #1566C0;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bordodestra{
+    border-right: 10px solid #1566C0;
+}
+
+.bordosinistra{
+    border-left: 10px solid #1566C0; 
+
 }
