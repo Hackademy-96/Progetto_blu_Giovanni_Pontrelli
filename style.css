@@ -114,10 +114,48 @@ body{
 }
 
 .bordodestra{
-    border-right: 10px solid #1566C0;
+    border-right: 5px solid #1566C0;
+    position: relative;
 }
 
 .bordosinistra{
-    border-left: 10px solid #1566C0; 
+    border-left: 5px solid #1566C0; 
+    position: relative;
 
+}
+
+.backgroundfoot{
+    background: url(./img/footer.jpg);
+    height: 50vh;
+
+
+}
+
+.footbar{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.bordosinistra:before{
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    border: 3px solid #1566C0;
+}
+
+.bordodestra:before{
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left:650px;
+    border: 3px solid #1566C0;
 }
