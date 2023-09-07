@@ -1,5 +1,5 @@
 .headsfondo{
-    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+    background: linear-gradient(180deg, var(--primary), var(--secondary)),
     url(./img/header.jpg) no-repeat center center / cover ;
     height: 70vh;
 }
@@ -88,8 +88,8 @@ body{
 
 :root{
 
-    --primary: hsla(240, 5%, 7%, 0.90);
-    --secondary:hsla(208, 89%, 11%, 0.2);
+    --primary: hsla(0, 0%, 0%, 0.888);
+    --secondary:hsla(207, 93%, 6%, 0.603);
 }
 
 .bordocard2{
@@ -115,14 +115,21 @@ body{
 
 .bordodestra{
     border-right: 5px solid #1566C0;
-    position: relative;
+    position: relative;   
 }
 
-.bordosinistra{
+/* .bordodestra:nth-child() */
+/* cobtrolla su documentazione */
+
+
+
+
+
+/* .bordosinistra{
     border-left: 5px solid #1566C0; 
     position: relative;
 
-}
+} */
 
 .backgroundfoot{
     background: url(./img/footer.jpg);
@@ -136,26 +143,26 @@ body{
 }
 
 
-.bordosinistra:before{
+/* .bordosinistra:before{
     content: "";
-    height: 15px;
-    width: 15px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     background-color: white;
     position: absolute;
     top: 0;
     left: -10px;
     border: 3px solid #1566C0;
-}
+} */
 
-.bordodestra:before{
+.bordodestra::before{
     content: "";
-    height: 15px;
-    width: 15px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     background-color: white;
     position: absolute;
-    top: 0;
-    left:650px;
+    top:-5px;
+    right: calc(0% - 18px);
     border: 3px solid #1566C0;
 }
